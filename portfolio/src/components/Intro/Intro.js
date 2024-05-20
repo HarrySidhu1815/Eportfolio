@@ -7,7 +7,6 @@ import btn from '../../assests/hire.png'
 
 const Intro = () => {
   return (
-    <div>
       <section id="intro">
         <div className="introContent">
             <span className="hello">Hello</span>
@@ -17,7 +16,6 @@ const Intro = () => {
         </div>
         <img src={bg} alt="Profile" className="bg" />
       </section>
-    </div>
   )
 }
 

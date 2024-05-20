@@ -50,7 +50,7 @@
 }
 @media screen and (max-width: 840px) {
     .bg{
-        right: -30vw;
+        right: -5vw;
     }
     .introContent{
         font-size: 10vw;

@@ -6,7 +6,6 @@ import contactImage from '../../assests/contact.png.webp'
 
 const Navbar = () => {
   return (
-    <div>
       <nav className='navbar'>
         <img className='logo' src={logo} alt='Logo'/>
         <div className='desktopMenu'>
@@ -20,7 +19,6 @@ const Navbar = () => {
             Contact Me
         </button>
       </nav>   
-    </div>
   )
 }
 
