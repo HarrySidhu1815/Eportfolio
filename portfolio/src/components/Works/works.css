@@ -12,7 +12,7 @@
     padding: 0 1rem;
 }
 .worksTitle{
-    margin: 1rem 0;
+    margin: 2rem 0;
     font-size: 3rem;
 }
 .worksDesc{
@@ -31,6 +31,7 @@
 .worksImg{
     object-fit: cover;
     height: 20rem;
+    width: 18rem;
     margin: 0.5rem;
 }
 .worksBtn{
