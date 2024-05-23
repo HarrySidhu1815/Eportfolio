@@ -1,0 +1,76 @@
+#artifacts{
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+}
+.artifactsTitle{
+    margin: 2rem 0;
+    font-size: 3rem;
+}
+.artifactsDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+}
+.artifactsImgs{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 65rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+  
+  .artifactsImgContainer {
+    position: relative;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .artifactsImg {
+    background-color: white;
+    object-fit: cover;
+    width: 100%;
+    transition: opacity 0.3s ease;
+  }
+  
+  .artifactsImgContainer:hover .artifactsImg {
+    opacity: 0.7;
+  }
+  
+  .downloadButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .artifactsImgContainer:hover .downloadButton {
+    display: block;
+  }
+
+@media screen and (max-width:585px) {
+    .artifactssImg{
+        height: 48vw;
+    }
+    
+}
