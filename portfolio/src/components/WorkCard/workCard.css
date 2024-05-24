@@ -52,3 +52,19 @@
     transition: opacity 0.3s ease;
     margin-bottom: 1rem;
 }
+.projects-carousel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+.carousel-btn {
+    background-color: rgb(50,50,50);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+  

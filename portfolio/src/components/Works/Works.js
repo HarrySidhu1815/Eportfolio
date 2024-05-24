@@ -33,7 +33,7 @@ const Works = () => {
           </div>
           <button className="worksBtn" onClick={handleSeeMore}>See Projects</button>
         </>
-      ) : (<WorkCard/>)}
+      ) : (<WorkCard goBack={handleGoBack}/>)}
     </section>
   )
 }
