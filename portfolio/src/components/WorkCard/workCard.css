@@ -14,7 +14,7 @@
 .project-card{
     position: relative;
     display: flex;
-    width: 48%;
+    width: 95%;
     align-items: center;
     flex-direction: column;
     padding: 0.5rem;
@@ -66,5 +66,7 @@
     height: 100%;
     border-radius: 5px;
   }
-
-  
+  .carousel{
+    width: 100%;
+    margin: 0 auto;
+  }
