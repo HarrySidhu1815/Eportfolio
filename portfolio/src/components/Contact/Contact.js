@@ -1,8 +1,8 @@
 import React, { useRef } from 'react'
 import './contact.css'
-import Thd from '../../assests/thd.png'
-import Ufv from '../../assests/ufv.jpeg'
-import Chevron from '../../assests/chevron.png'
+import Thd from '../../assests/thd.jpeg'
+import Ufv from '../../assests/ufv1.jpeg'
+import Chevron from '../../assests/chevron.jpeg'
 import InstaLogo from '../../assests/insta.svg.png'
 import GitHubLogo from '../../assests/github.webp'
 import LinkedInLogo from '../../assests/linkedin.png'
@@ -46,8 +46,8 @@ const Contact = () => {
                 <button className="submitBtn" type='submit' value='Send'>Submit</button>
                 <div className="links">
                     <img src={InstaLogo} alt="Instagram" className="link" />
-                    <img src={GitHubLogo} alt="GitHub" className="link" />
-                    <img src={LinkedInLogo} alt="LinkedIn" className="link" />
+                    <a href='https://github.com/HarrySidhu1815'><img src={GitHubLogo} alt="GitHub" className="link" /></a>
+                    <a href='https://www.linkedin.com/in/harjobanpreet-singh-sidhu-13b80525b/'><img src={LinkedInLogo} alt="LinkedIn" className="link" /></a>
                 </div>
             </form>
         </div>
