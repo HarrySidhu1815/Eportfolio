@@ -1,10 +1,11 @@
 import React, { useState } from 'react'
 import './works.css'
 import Port1 from '../../assests/port1.jpg'
-import Port2 from '../../assests/decsion.jpeg'
+import Port2 from '../../assests/decision.jpeg'
 import Port3 from '../../assests/team.jpeg'
 import Port4 from '../../assests/comm.jpeg'
-import Port5 from '../../assests/solve.jpeg'
+import Port5 from '../../assests/probelm.avif'
+import Port6 from '../../assests/flexible.jpeg'
 import WorkCard from '../WorkCard/WorkCard'
 
 const Works = () => {
@@ -14,8 +15,8 @@ const Works = () => {
     setShowProjects(true);
   };
 
-  const handleGoBack = () => {
-    setShowProjects(false);
+  const handleGoBack = (e) => {
+    setShowProjects(e);
   };
   return (
     <section id="works">
@@ -29,7 +30,7 @@ const Works = () => {
             <img src={Port3} alt="" className="worksImg" />
             <img src={Port4} alt="" className="worksImg" />
             <img src={Port5} alt="" className="worksImg" />
-            <img src={Port1} alt="" className="worksImg" />
+            <img src={Port6} alt="" className="worksImg" />
           </div>
           <button className="worksBtn" onClick={handleSeeMore}>See Projects</button>
         </>

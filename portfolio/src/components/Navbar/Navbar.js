@@ -12,7 +12,7 @@ const Navbar = () => {
         <img className='logo' src={logo} alt='Logo'/>
         <div className='desktopMenu'>
             <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuList'>Home</Link>
-            <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuList'>About</Link>
+            <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-80} duration={500} className='desktopMenuList'>About</Link>
             <Link activeClass='active' to='works' spy={true} smooth={true} offset={-40} duration={500} className='desktopMenuList'>Portfolio</Link>
             <Link activeClass='active' to='artifacts' spy={true} smooth={true} offset={-30} duration={500} className='desktopMenuList'>Artifacts</Link>
             <Link activeClass='active' to='clients' spy={true} smooth={true} offset={-50} duration={500} className='desktopMenuList'>Clients</Link>

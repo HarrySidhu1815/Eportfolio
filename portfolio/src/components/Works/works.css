@@ -31,7 +31,7 @@
 .worksImg{
     object-fit: cover;
     height: 20rem;
-    width: 18rem;
+    max-width: 18rem;
     margin: 0.5rem;
 }
 .worksBtn{
