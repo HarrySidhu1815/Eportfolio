@@ -51,7 +51,7 @@ const WorkCard = ({goBack}) => {
                         <Project source={investment} title={'Investment Calculator'}>Sidhu Market is an e-commerce website for electronic gadgets, built with HTML, CSS, JavaScript, and Node.js, featuring a REST API and a functional, animated front end using React.</Project>
                     </Carousel>
                 </div>
-                <button className="portfolioBtn" onClick={()=>goBack(false)}>See Porfolio</button>
+                <button className="portfolioBtn" onClick={()=>goBack(false)}>See Artifacts</button>
         </>
     )
 }
