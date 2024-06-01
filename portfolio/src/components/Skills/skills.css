@@ -35,12 +35,34 @@
     display: flex;
     background: rgb(50,50,50);
 }
+.carousel-skills .carousel-item-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 .skillBarImg{
     object-fit: cover;
     height: 3rem;
     width: 3rem;
+    align-self: center;
+    background-color: white;
     margin-right: 2rem;
 }
+.carousel-btn {
+    background-color: rgb(50,50,50);
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    height: 100%;
+    border-radius: 5px;
+    align-self:flex-end;
+  }
+  .carousel-skills{
+    width: 100%;
+    margin: 0 auto;
+  }
 .skillBarText>p{
     font-size: 0.9rem;
     font-weight: 200;

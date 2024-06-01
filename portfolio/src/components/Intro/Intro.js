@@ -12,7 +12,7 @@ const Intro = () => {
             <span className="hello">Hello</span>
             <span className="introText">I'm <span className="introName">Harjobanpreet</span><br/>Web Developer</span>
             <p className="introPara">I am a skilled web developer with experience in creating <br/> full stack website usign MERN languages</p>
-            <Link><button className="btn"><img src={btn} alt="Hire Me" className='btnImg'/>Hire Me</button></Link>
+            <Link to='contact' spy={true} smooth={true} offset={-100} duration={500}><button className="btn"><img src={btn} alt="Hire Me" className='btnImg'/>Hire Me</button></Link>
         </div>
         <img src={bg} alt="Profile" className="bg" />
       </section>
