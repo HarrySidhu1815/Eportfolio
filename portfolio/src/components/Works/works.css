@@ -32,9 +32,9 @@
     object-fit: cover;
     height: 20rem;
     max-width: 18rem;
-    margin: 0.5rem;
 }
 .imgwrapper{
+    margin: 0.5rem;
     position: relative;
 }
 .imgwrapper:hover .worksImg {
