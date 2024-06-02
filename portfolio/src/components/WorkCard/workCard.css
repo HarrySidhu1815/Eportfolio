@@ -17,6 +17,7 @@
     width: 95%;
     align-items: center;
     flex-direction: column;
+    margin: auto;
     padding: 0.5rem;
     height: 35rem;
     background-color: rgb(50,50,50);
