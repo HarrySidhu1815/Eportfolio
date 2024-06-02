@@ -45,7 +45,7 @@ const Contact = () => {
                 <textarea name="message" rows="5" className="msg" placeholder='Your Message'></textarea>
                 <button className="submitBtn" type='submit' value='Send'>Submit</button>
                 <div className="links">
-                    <img src={InstaLogo} alt="Instagram" className="link" />
+                    <a href='https://www.instagram.com/harry_._sidhu/'><img src={InstaLogo} alt="Instagram" className="link" /></a>
                     <a href='https://github.com/HarrySidhu1815'><img src={GitHubLogo} alt="GitHub" className="link" /></a>
                     <a href='https://www.linkedin.com/in/harjobanpreet-singh-sidhu-13b80525b/'><img src={LinkedInLogo} alt="LinkedIn" className="link" /></a>
                 </div>
