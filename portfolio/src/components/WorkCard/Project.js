@@ -1,7 +1,13 @@
 import React from 'react'
 import {Link} from 'react-scroll'
 
-const Project = ({source, title, children}) => {
+const Project = ({source, title, children, view, gitHub}) => {
+    let hideView = {'visibility': 'none'}
+    if(!view){
+        hideView = {
+            'visibility': 'hidden'
+        }
+    }
     return (
         <div className="project-card">
             <img src={source} alt="" className="projectImg" />
@@ -12,12 +18,14 @@ const Project = ({source, title, children}) => {
                 <p>{children}</p>
             </div>
             <div className="pro-btns">
-                <Link className='btns'>
+                <Link className='btns' style={hideView}>
                     View
                 </Link>
-                <Link className='btns'>
+                <a href={gitHub}>
+                <button className='btns'>
                     Source
-                </Link>
+                </button>
+                </a>
             </div>
         </div>
     )
