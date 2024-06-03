@@ -5,11 +5,13 @@ import Artifact3 from '../../assests/certificate.jpeg'
 import Artifact4 from '../../assests/ref1.jpg'
 import Artifact5 from '../../assests/ref2.jpg.webp'
 import Artifact6 from '../../assests/king.jpeg'
+import Artifact7 from '../../assests/ref3.png'
 import Resume from '../../assests/Resume.pdf'
 import Transcript from '../../assests/Transcript.pdf'
 import Certificate from '../../assests/certificate.pdf'
 import Ref1 from '../../assests/ref1.pdf'
 import Ref2 from '../../assests/ref2.pdf'
+import RefLetter3 from '../../assests/Reference Page.pdf'
 import WorkCard from '../WorkCard/WorkCard'
 import Carousel from 'react-multi-carousel';
 
@@ -105,6 +107,15 @@ const Artifacts = () => {
                             </a>
                             <p>
                                 Got the King Title for playing the Cashier Olypics at Regional Level at Home Depot.
+                            </p>
+                        </div>
+                        <div className="artifactsImgContainer">
+                            <img src={Artifact7} alt="referenceLetter" className="artifactsImg" />
+                            <a href={RefLetter3} download="referenceLetter.jpeg">
+                                <button className="downloadButton">Download</button>
+                            </a>
+                            <p>
+                                My reference letter highlighting my professional achievements and endorsements from previous employers.
                             </p>
                         </div>
                         </Carousel>
